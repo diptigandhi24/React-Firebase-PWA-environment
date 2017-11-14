@@ -1,0 +1,5 @@
+/build/*
+# auth file
+/app/components/src/fire.js
+# allow npm to resolve dependencies
+/node_modules

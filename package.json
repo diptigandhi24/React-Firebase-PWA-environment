@@ -1,0 +1,41 @@
+{
+  "name": "react-tutorial",
+  "version": "1.0.0",
+  "description": "An effort to finish the react tutorial completely",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && npm run git commit && nmp git-push ",
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diptigandhi24/ReactJS-tutorial.git"
+  },
+  "keywords": [
+    "reactjs"
+  ],
+  "author": "Dipti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diptigandhi24/ReactJS-tutorial/issues"
+  },
+  "homepage": "https://github.com/diptigandhi24/ReactJS-tutorial#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "firebase": "^4.6.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.7.1",
+    "webpack-dev-server": "^2.9.2"
+  }
+}
